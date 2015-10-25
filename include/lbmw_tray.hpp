@@ -5,6 +5,7 @@
 
 
 class QMenu;
+class QAction;
 class LBMConfig;
 
 
@@ -23,11 +24,11 @@ public:
 
 private:
     QMenu *tray_menu;
-
+    QAction *ac;
     LBMConfig *config;
 
 private slots:
-    void update_icon ();
+    void update_tray ();    
     
 };
 
