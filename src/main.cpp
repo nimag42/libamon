@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("utf8"));
     
     W_Tray t (NULL);
-
     t.show();
     
     return app.exec();
